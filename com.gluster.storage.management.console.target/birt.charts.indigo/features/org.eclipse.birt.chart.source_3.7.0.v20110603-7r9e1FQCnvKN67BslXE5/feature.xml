@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.birt.chart.source" version="3.7.0.v20110603-7r9e1FQCnvKN67BslXE5" label="%featureName" provider-name="%providerName" image="eclipse_update_120.jpg"    >
+	<description url="http://www.eclipse.org/birt">
+		%description
+	</description>
+	<copyright url="%copyrightURL">
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<url>
+		<update url="http://download.eclipse.org/birt/update-site/3.7" label="Business Intelligence and Reporting Tools (BIRT) Updates"/>
+		<discovery url="http://download.eclipse.org/birt/update-site/3.7" label="%updateSiteName"/>
+	</url>
+	<plugin id="org.eclipse.birt.chart.ui.source" version="3.7.0.v20110331"     unpack="false"/>
+	<plugin id="org.eclipse.birt.chart.ui.extension.source" version="3.7.0.v20110414"     unpack="false"/>
+	<plugin id="org.eclipse.birt.core.ui.source" version="3.7.0.v20110407"     unpack="false"/>
+	<plugin id="org.eclipse.birt.chart.device.extension.source" version="3.7.0.v20110414"     unpack="false"/>
+	<plugin id="org.eclipse.birt.chart.device.svg.source" version="3.7.0.v20110421"     unpack="false"/>
+	<plugin id="org.eclipse.birt.chart.device.swt.source" version="3.7.0.v20110303"     unpack="false"/>
+	<plugin id="org.eclipse.birt.chart.device.pdf.source" version="3.7.0.v20110303"     unpack="false"/>
+	<plugin id="org.eclipse.birt.chart.examples.core.source" version="3.7.0.v20110414"     unpack="false"/>
+	<plugin id="org.eclipse.birt.chart.engine.source" version="3.7.0.v20110519"     unpack="false"/>
+	<plugin id="org.eclipse.birt.chart.engine.extension.source" version="3.7.0.v20110421"     unpack="false"/>
+	<plugin id="org.eclipse.birt.core.source" version="3.7.0.v20110608"     unpack="false"/>
+	<plugin id="org.apache.commons.codec.source" version="1.3.0.v201101211617"     unpack="false"/>
+	<plugin id="org.eclipse.birt.chart.source" version="3.7.0.v20110126"     unpack="false"/>
+	<plugin id="org.mozilla.javascript.source" version="1.7.2.v201005080400"     unpack="false"/>
+</feature>
